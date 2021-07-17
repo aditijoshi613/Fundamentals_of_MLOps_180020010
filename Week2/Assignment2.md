@@ -42,6 +42,10 @@ List of commands (in sequence) that were used to accomplish the tasks mentioned 
      
 Values of Accuracy & Weighted F1 Score obtained from both the experiments conducted in Part 2
 
+Expt 1: Decision Tree Classifier -> Accuracy= 0.999017, Weighted f1_score= 0.999022
+
+Expt 2: Random Forests Classifier -> Accuracy= 0.999526, Weighted f1_score= 0.999502
+
 Screenshot of S3 bucket, after completion of Part 2
 ![image](https://user-images.githubusercontent.com/64677521/126045893-d696627d-d519-4584-a02e-2b0c6496edcd.png)
 ![image](https://user-images.githubusercontent.com/64677521/126045902-d9651850-ec1f-4d99-b61d-90dbe3b27028.png)
