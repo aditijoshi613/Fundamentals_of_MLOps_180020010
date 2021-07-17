@@ -1,0 +1,4 @@
+- Link to your respective GitHub repositories named `MLOps_Assignment` (see [Part 1](https://www.notion.so/Assignment-2-9ade7e67b2dd46f6b5ba91772ad149e2))
+- A list of commands (in sequence) that you used to accomplish the tasks mentioned in Part 1
+- Values of Accuracy & Weighted F1 Score obtained from both the experiments conducted in Part 2
+- Screenshot of your S3 bucket, after completion of Part 2
