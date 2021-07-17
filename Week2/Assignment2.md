@@ -1,4 +1,26 @@
-- Link to your respective GitHub repositories named `MLOps_Assignment` (see [Part 1](https://www.notion.so/Assignment-2-9ade7e67b2dd46f6b5ba91772ad149e2))
-- A list of commands (in sequence) that you used to accomplish the tasks mentioned in Part 1
-- Values of Accuracy & Weighted F1 Score obtained from both the experiments conducted in Part 2
-- Screenshot of your S3 bucket, after completion of Part 2
+Link to the repo: https://github.com/aditijoshi613/MLOps_Assignment 
+
+List of commands (in sequence) that were used to accomplish the tasks mentioned in Part 1:
+    1. git clone https://github.com/aditijoshi613/MLOps_Assignment
+    2. cd MLOps_Assignment
+    3. git init
+    4. git remote add origin https://github.com/aditijoshi613/MLOps_Assignment
+    5. git branch -M main
+    6. dvc init
+    7. mkdir data
+    8. cd ../
+    9. mkdir external_cache
+    10. cd MLOps_Assignment
+    11. dvc cache dir C:\Users\user\external_cache
+    12. dvc add data/creditcard.csv
+    13. git add data/creditcard.csv.dvc data/.gitignore
+    14. git commit -m "Add raw data"
+    15. dvc remote add -d storage s3://mlopsa2/datastore
+    16. git add .dvc/config
+    17. git commit -m "Configure remote storage"
+    18. dvc push
+    19. git push origin main
+     
+Values of Accuracy & Weighted F1 Score obtained from both the experiments conducted in Part 2
+
+Screenshot of S3 bucket, after completion of Part 2
